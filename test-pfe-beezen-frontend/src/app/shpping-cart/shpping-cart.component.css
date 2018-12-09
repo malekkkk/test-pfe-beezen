@@ -1,0 +1,38 @@
+.table-of-products {
+  margin: 30px;
+  background-color: #999999a1;
+  border-radius: 2px;
+}
+
+.book-image-cart {
+  margin-bottom: 1%;
+  height: 110px
+}
+
+#text-description {
+  font-family: 'PT Serif', serif;
+}
+
+.price-cart {
+  font-family: 'Noto Serif', serif;
+  vertical-align: middle;
+  color: red;
+}
+
+#add-bonton {
+  font-weight: bolder;
+  vertical-align: middle;
+}
+.total-cart {
+  font-family: 'Noto Serif', serif;
+  font-size: -webkit-xxx-large;
+  color: #070c46;
+  text-align: center;
+}
+.total-price {
+  font-family: 'Noto Serif', serif;
+  vertical-align: middle;
+  width: 15%;
+  font-size: xx-large;
+  color: red;
+}

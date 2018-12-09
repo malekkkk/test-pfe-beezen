@@ -1,0 +1,24 @@
+.header {
+  background-color: aquamarine;
+}
+#header-shopping-cart {
+  float: right;
+  margin-right: 3%;
+}
+
+#shopping-cart-icon {
+  margin-right: 6px;
+  font-size: larger;
+  color: black;
+}
+
+.shopping-cart-text {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  margin-right: 6px;
+}
+
+.number-of-shopping-products {
+  font-size: small;
+  color: red;
+}

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\shopping-stor",
+    "\\src\\app\\shpping-cart",
+    "\\src\\app\\top-bar",
+    "\\src\\assets",
+    "\\src\\models",
+    "\\src\\services"
+  ],
+  "SelectedNode": "\\src\\app\\shpping-cart\\shpping-cart.component.spec.ts",
+  "PreviewInSolutionExplorer": false
+}

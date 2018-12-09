@@ -1,0 +1,35 @@
+<div class="table-of-products">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Book</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of addedBooks">
+        <th scope="row">
+          1
+        </th>
+        <td>
+          <div>
+            <img src="../../assets/img/{{book.Cover}}" class="book-image-cart">
+            <h6 class="text-gras">{{book.Title}}</h6>
+          </div>
+        </td>
+        <td class="price-cart">{{book.Price}} euro</td>
+      </tr>
+      <tr>
+        <td class="total-cart" colspan="2">Total</td>
+        <td class="total-price">{{totalPrice}} Euro</td>
+      </tr>
+
+      <tr>
+        <td class="total-cart" colspan="2">After discount</td>
+        <td class="total-price">{{discountedTotalPrice}} Euro</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>

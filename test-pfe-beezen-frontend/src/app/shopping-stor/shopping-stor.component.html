@@ -1,0 +1,36 @@
+<div class="table-of-products">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Book</th>
+        <th scope="col">Description</th>
+        <th scope="col"></th>
+        <th scope="col">Price</th>
+        <th scope="col">click</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        <th scope="row">
+          1
+        </th>
+        <td style="width:22%">
+          <div>
+            <img src="../../assets/img/{{book.Cover}}" class="book-image">
+            <h6 class="text-gras"> {{book.Title}}</h6>  
+          </div>
+        </td>
+        <td colspan="2" style="width:40%">
+          <p class="text-justify" id="text-description">
+            {{book.Synopsis}}
+          </p>
+        </td>
+        <td class="price">{{book.Price}} euro</td>
+        <td id="add-bonton" >
+          <button type="button" class="btn btn-primary btn-lg" [disabled]="book.IsAdded" (click)="addBookToShoppingCart(book)"><i class="fas fa-cart-plus"> Add to cart shop</i></button>
+        <td>
+      </tr>
+    </tbody>
+  </table>
+</div>

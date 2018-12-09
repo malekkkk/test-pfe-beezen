@@ -1,0 +1,26 @@
+.table-of-products {
+  margin: 30px;
+  background-color: #999999a1;
+  border-radius: 2px;
+}
+.book-image {
+  margin-bottom: 1%;
+  height: 360px;
+}
+.text-gras {
+  font-weight: bolder;
+}
+#text-description {
+  font-family: 'PT Serif', serif;
+}
+.price {
+  font-family: 'Noto Serif', serif;
+  vertical-align: middle;
+  width: 15%;
+  font-size: xx-large;
+  color: red;
+}
+#add-bonton {
+  font-weight: bolder;
+  vertical-align: middle;
+}
