@@ -10,7 +10,7 @@ import { AppComponent } from "../app.component";
 })
 export class TopBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private bookService: BookService) { }
 
   get staticNomberOfSelectedBooks() {
     return BookService.nomberOfSelectedBooks;
@@ -19,8 +19,7 @@ export class TopBarComponent implements OnInit {
     return BookService.shoppingCartBooks;
   }
   saveBooks() {
-    var bookService: BookService;
-    bookService.addBook();
+    this.bookService.saveBooks();
   }
   ngOnInit() {
   }
