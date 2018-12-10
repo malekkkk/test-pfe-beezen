@@ -8,8 +8,9 @@ requires : angular 7.1.1
 
 open first cmd 
 cd ./test-pfe-beezen-backend
+npm install express
 npm install cors
-npm install jsonFile --save
+npm install jsonfile
 node beezen-server.js
 
 ************ Frontend ********************
